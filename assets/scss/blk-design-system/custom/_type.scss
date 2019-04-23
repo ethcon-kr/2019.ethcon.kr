@@ -29,6 +29,18 @@ h1,h2,h3,h4,h5,h6{
     color: $opacity-8;
 }
 
+.primary {
+  color: $primary !important;
+}
+
+.secondary {
+  color: $secondary !important;
+}
+
+.default {
+  color: $default !important;
+}
+
 a{
     color: $primary-states;
     font-weight: $font-weight-light;

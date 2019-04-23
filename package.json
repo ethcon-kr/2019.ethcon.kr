@@ -1,10 +1,15 @@
 {
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "sass": "npm run compile-scss && npm run compile-scss-compress",
+    "compile-scss": "sass ./assets/scss/blk-design-system.scss ./assets/css/blk-design-system.css",
+    "compile-scss-compress": "sass ./assets/scss/blk-design-system.scss ./assets/css/blk-design-system.min.css --style compressed"
+  },
   "devDependencies": {
     "husky": "^1.2.1",
     "lint-staged": "^8.1.0",
-    "prettier": "1.15.3"
+    "prettier": "1.15.3",
+    "sass": "^1.19.0"
   },
   "workspaces": {
     "packages": [

@@ -31,7 +31,7 @@
 
     .squares{
       animation: move-left-right 1s infinite;
-      @include linear-gradient($primary-states, $primary);
+      //@include linear-gradient($primary-states, $primary);
       position: absolute;
       transition: 0.5s ease-out;
       overflow: hidden;
@@ -85,8 +85,8 @@
         animation: move-left-right 9s infinite;
         left: 10%;
         top: 35%;
-        height: 80px;
-        width: 80px;
+        height: 400px;
+        width: 400px;
         opacity: 0.8;
       }
 
