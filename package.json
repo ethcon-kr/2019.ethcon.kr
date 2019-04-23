@@ -1,17 +1,30 @@
 {
-  "name": "black-kit",
-  "description": "Bootstrap 4 Black Design",
-  "version": "1.0.1",
-  "homepage": "http://creative-tim.com/product/blk-design-system",
-  "author": "Creative Tim",
-  "license": "Creative Tim License <www.creative-tim.com/license>",
+  "private": true,
+  "scripts": {},
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.1.0",
-    "gulp-clean": "^0.3.2",
-    "gulp-install": "^1.1.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.3",
-    "gulp-open": "^2.1.0"
+    "husky": "^1.2.1",
+    "lint-staged": "^8.1.0",
+    "prettier": "1.15.3"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 2,
+    "printWidth": 80
   }
 }
