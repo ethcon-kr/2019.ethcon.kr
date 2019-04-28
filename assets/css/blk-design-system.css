@@ -18,13 +18,13 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Noto+Sans+KR:400,700,900");
 @keyframes move-left-right {
   0% {
-    transform: translateX(-10px);
+    transform: translateX(-30px);
   }
   50% {
-    transform: translateX(10px);
+    transform: translateX(30px);
   }
   100% {
-    transform: translateX(-10px);
+    transform: translateX(-30px);
   }
 }
 :root {
@@ -15136,10 +15136,10 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 .index-page .squares.square6 {
   animation: move-left-right 9s infinite;
-  left: 10%;
+  left: 15%;
   top: 35%;
-  height: 400px;
-  width: 400px;
+  height: 20%;
+  width: auto;
   opacity: 0.8;
 }
 .index-page .squares.square7 {
