@@ -541,3 +541,11 @@ Created using IcoMoon - icomoon.io
 .icon-components::before {
   content: "\ea65";
 }
+
+.ul-style {
+  list-style-type: none; 
+  font-size: 1.5rem; 
+  line-height: 180%;
+  margin: 0px;
+  padding: 0px;
+}
