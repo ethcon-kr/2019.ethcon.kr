@@ -549,3 +549,9 @@ Created using IcoMoon - icomoon.io
   margin: 0px;
   padding: 0px;
 }
+
+.list-style-none{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
