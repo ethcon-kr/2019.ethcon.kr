@@ -50,9 +50,7 @@
   }
 
 
-  .nav-item {
-    color: $default;
-  }
+
 
   &.navbar-transparent{
     background: $transparent-bg !important;
@@ -90,7 +88,7 @@
 
     }
 
-    .navbar-text, .navbar-brand{
+    .navbar-text{
       color: $black;
     }
 
@@ -132,7 +130,6 @@
     position: relative;
     padding-top: .3125rem;
     padding-bottom: .3125rem;
-    color: $default;
     text-transform: capitalize;
     font-size: $font-paragraph;
     span{
@@ -403,6 +400,13 @@
 }
 
 @media screen and (min-width: 992px) {
+  .navbar-brand {
+    color: $black;
+  }
+
+  .nav-item {
+    color: $default;
+  }
   .navbar-collapse {
     background: none !important;
   }
@@ -435,6 +439,13 @@
 }
 
 @media screen and (max-width: 991px){
+  .navbar-brand {
+    color: $white;
+  }
+
+    .nav-item {
+    color: $white;
+  }
   .navbar .navbar-translate {
     width: 100%;
     position: relative;
@@ -455,6 +466,15 @@
   }
 }
 @media screen and (max-width: 576px){
+
+  .nav-item {
+    color: $white;
+  }
+
+  .navbar-brand {
+    color: $white;
+  }
+
   .navbar[class*='navbar-toggleable-'] .container{
     margin-left: 0;
     margin-right: 0;

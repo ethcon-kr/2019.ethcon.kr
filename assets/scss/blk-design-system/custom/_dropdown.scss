@@ -334,6 +334,11 @@
 }
 
 @media screen and (max-width: 991px){
+
+  .dropdown-menu .dropdown-item{
+      color: $white;
+  }
+
   .dropdown-toggle:after{
     display: inline-block;
     width: 0;
