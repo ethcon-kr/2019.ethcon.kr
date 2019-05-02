@@ -1,6 +1,7 @@
 
 $(function () {
-	shuffleDiv($(".shuffle"));
+	shuffleDiv($(".sponsorShuffle"));
+	shuffleDiv($(".mediaShuffle"));
 });
 
 function scrollToItem(item) {
