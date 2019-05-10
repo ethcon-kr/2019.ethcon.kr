@@ -1,10 +1,12 @@
 Official website: https://ethcon.kr/
 
-Ethcon Korea is a non-profit Ethereum developer conference. We believe in decentralization and the conference is run by community volunteers.
+**Ethcon Korea is** 
+
+a non-profit Ethereum developer conference. We believe in decentralization and the conference is run by community volunteers.
 
 We do not speak for a specific organization or group’s agenda and will not be privatized or become a private organization. We support all the open source campaigns.
 
-*Why did we start ETHcon Korea?*
+**Why did we start ETHcon Korea?**
 
 Ethereum is supported and developed by many developers who believe in decentralization and the value of open source. Although there are many who also believe in such philosophy in Korea, the developers’ community fails to act as a leading role due to being severed from the global developers’ community. 
 
