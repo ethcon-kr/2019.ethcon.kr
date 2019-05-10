@@ -1,3 +1,8 @@
+ The first Korean community conference, ETHCon Korea's official website.
+ 
+ https://ethcon.kr/
+
+
 # Development
 
 ```
