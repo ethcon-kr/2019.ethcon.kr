@@ -64,12 +64,28 @@
         <li class="nav-item">
           <a class="nav-link" href="#" onclick="scrollToItem('agenda')">Agendas</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" onclick="scrollToItem('jobfair')">Job fair</a>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programs</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <ul class="list-style-none">
+              <li><a class="dropdown-item" href="#" onclick="scrollToItem('jobfair')">Job fair</a></li>
+              <li><a class="dropdown-item" href="#" onclick="scrollToItem('jobfair')">Beginners Course</a></li>
+              <li><a class="dropdown-item" href="#" onclick="scrollToItem('jobfair')">Challange</a></li>
+            </ul>
+          </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" onclick="scrollToItem('sponsor')">Sponsorship</a>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Partners</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <ul class="list-style-none">
+              <li><a class="dropdown-item" href="#" onclick="scrollToItem('sponsor')">Sponsor</a></li>
+              <li><a class="dropdown-item" href="#" onclick="scrollToItem('medias')">Media</a></li>
+            </ul>
+          </div>
         </li>
+
         <li class="nav-item">
           <a class="nav-link" href="#" onclick="scrollToItem('donate')">Donation</a>
         </li>
@@ -556,7 +572,7 @@
 
       <h2 class="title primary">Tier 3</h2>
       <hr class="line-primary">
-      <div class="row p-2">
+      <div class="row p-2 tier3Shuffle">
         <div class="col-md-3 col-6 text-center">
           <div class="bg-white rounded p-4 col border-1" style="border:1px solid #fad02c;">
             <img src="assets/img/sponsors/dcent_logo.png" alt="dcent" class="img-fluid" >
@@ -604,6 +620,14 @@
           </div>
 
           <small class="d-block text-uppercase font-weight-bold mb-4 mt-4">haechi</small>
+        </div>
+
+        <div class="col-md-3 col-6 text-center">
+          <div class="bg-white rounded p-4 col border-1" style="border:1px solid #fad02c;">
+            <img src="assets/img/sponsors/cosmicbc_logo.png" alt="cosmicbc" class="img-fluid" >
+          </div>
+
+          <small class="d-block text-uppercase font-weight-bold mb-4 mt-4">cosmicbc</small>
         </div>
 
       </div>

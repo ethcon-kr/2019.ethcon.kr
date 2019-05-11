@@ -64,22 +64,38 @@
         <li class="nav-item">
           <a class="nav-link" href="#" onclick="scrollToItem('agenda')">발표</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" onclick="scrollToItem('jobfair')">잡페어</a>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">프로그램</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <ul class="list-style-none">
+              <li><a class="dropdown-item" href="#" onclick="scrollToItem('jobfair')">잡페어</a></li>
+              <li><a class="dropdown-item" href="#" onclick="scrollToItem('jobfair')">비기너 코스</a></li>
+              <li><a class="dropdown-item" href="#" onclick="scrollToItem('jobfair')">챌린지</a></li>
+            </ul>
+          </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" onclick="scrollToItem('sponsor')">스폰서십</a>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">파트너</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <ul class="list-style-none">
+              <li><a class="dropdown-item" href="#" onclick="scrollToItem('sponsor')">스폰서</a></li>
+              <li><a class="dropdown-item" href="#" onclick="scrollToItem('medias')">미디어</a></li>
+            </ul>
+          </div>
         </li>
+
         <li class="nav-item">
           <a class="nav-link" href="#" onclick="scrollToItem('donate')">기부하기</a>
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">언어</a>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <ul class="list-style-none">
-              <li><a class="dropdown-item" href="./index.html">Korean</a></li>
-              <li><a class="dropdown-item" href="./index.en.html">English</a></li>
+              <li><a class="dropdown-item" href="./index.html">한국어</a></li>
+              <li><a class="dropdown-item" href="./index.en.html">영어</a></li>
             </ul>
           </div>
         </li>
@@ -254,7 +270,7 @@
   <div class="section" id="speakers">
       <div class="container">
         <h1 class="title primary mb-5">Speakers</h1>
-        <div class="row sponsorShuffle">
+        <div class="row speakersShuffle">
           <div class="col-md-3 col-6 text-center">
             <img src="assets/img/profiles/kanghada.jpg" alt="강하다" class="img-fluid rounded shadow mb-4"
               style="height: 180px;">
@@ -556,7 +572,7 @@
 
       <h2 class="title primary">Tier 3</h2>
       <hr class="line-primary">
-      <div class="row p-2">
+      <div class="row p-2 tier3Shuffle">
         <div class="col-md-3 col-6 text-center">
           <div class="bg-white rounded p-4 col border-1" style="border:1px solid #fad02c;">
             <img src="assets/img/sponsors/dcent_logo.png" alt="dcent" class="img-fluid" >
@@ -606,9 +622,24 @@
           <small class="d-block text-uppercase font-weight-bold mb-4 mt-4">haechi</small>
         </div>
 
+        <div class="col-md-3 col-6 text-center">
+          <div class="bg-white rounded p-4 col border-1" style="border:1px solid #fad02c;">
+            <img src="assets/img/sponsors/metadium_logo.png" alt="metadium" class="img-fluid" >
+          </div>
+
+          <small class="d-block text-uppercase font-weight-bold mb-4 mt-4">metadium</small>
+        </div>
+
+        <div class="col-md-3 col-6 text-center">
+          <div class="bg-white rounded p-4 col border-1" style="border:1px solid #fad02c;">
+            <img src="assets/img/sponsors/cosmicbc_logo.png" alt="cosmicbc" class="img-fluid" >
+          </div>
+
+          <small class="d-block text-uppercase font-weight-bold mb-4 mt-4">cosmicbc</small>
+        </div>
+
       </div>
     </div>
-
   </div>
 
   <!-- media partners -->
@@ -718,6 +749,7 @@
       </div>
     </div>
   </div>
+
 
   <!-- sponsorship -->
   <!--
