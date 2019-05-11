@@ -1,7 +1,9 @@
 
 $(function () {
-	shuffleDiv($(".sponsorShuffle"));
+	shuffleDiv($(".speakersShuffle"));
 	shuffleDiv($(".mediaShuffle"));
+	shuffleDiv($(".tier3Shuffle"));
+
 });
 
 function scrollToItem(item) {
@@ -14,7 +16,7 @@ function scrollToItem(item) {
 
 function shuffleDiv(parentDiv){
 	var divs = parentDiv.children();
-		
+
 	while (divs.length) {
 	  parentDiv.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
 	}
