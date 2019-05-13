@@ -49,6 +49,7 @@
   white-space: nowrap;
 
   @include hover-focus {
+    color: $white;
     text-decoration: none;
   }
 }
@@ -200,7 +201,7 @@
     color: $navbar-light-active-color;
 
     @include hover-focus {
-      color: $navbar-light-active-color;
+      color: $white;
     }
   }
 
