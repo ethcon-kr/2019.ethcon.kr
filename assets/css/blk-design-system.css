@@ -3963,6 +3963,7 @@ input[type=button].btn-block {
   white-space: nowrap;
 }
 .navbar-brand:hover, .navbar-brand:focus {
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -4190,7 +4191,7 @@ input[type=button].btn-block {
   color: rgba(34, 42, 66, 0.9);
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: rgba(34, 42, 66, 0.9);
+  color: #ffffff;
 }
 .navbar-light .navbar-nav .nav-link {
   color: rgba(34, 42, 66, 0.5);
@@ -18963,6 +18964,11 @@ input.datetimepicker[data-color=yellow] + .bootstrap-datetimepicker-widget butto
 }
 .card-chart .dropdown .btn {
   margin: 0;
+}
+
+.speaker-logo {
+  margin: 10px;
+  height: 30px;
 }
 
 /*# sourceMappingURL=blk-design-system.css.map */
