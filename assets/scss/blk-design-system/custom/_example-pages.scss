@@ -42,7 +42,7 @@
         width: 300px;
         opacity: 0.5;
         left: 3%;
-        top: -21%;
+        top: -5%;
       }
 
       &.square2{
@@ -571,6 +571,20 @@
 
   .info:first-of-type {
       padding-top: 10% !important;
+  }
+  
+  .square2 {
+      opacity: 0 !important;
+  }
+  .square4 {
+      opacity: 0 !important;
+  }
+  .square6 {
+      opacity: 0 !important;
+  }
+  .square7 {
+      height: 150px !important;
+      width: 150px !important;
   }
 }
 
